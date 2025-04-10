@@ -29,5 +29,5 @@ export async function handleSubmit (formData:FormData) {
         }
     });
     
-    return redirect("/dashboard")
+    return redirect("/")
 }
